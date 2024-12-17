@@ -7,26 +7,22 @@ This repository contains the files necessary to reproduce analyses in the paper 
 ## Directory Structure
 All full data files for analysis are located in the `/data` directory:
 ```
-data/
+repo/
 ├── README.txt
-├── Core Data/
+├── data/
 │   ├── buinn_all.csv
 │   ├── progpost.csv
 │   └── merged_data.csv
-├── Processed Analysis/
 │   ├── buinn_tense_filtered.csv
 │   ├── buinn_tense_agg.csv
 │   ├── progpost_agg.csv
 │   ├── progpost_agg2.csv
 │   └── subset_merged_data.csv
-├── Temporal Analysis/
 │   ├── temporal_subordinate_combined.csv
 │   ├── temporal_subordinate_narrative.csv
 │   └── temporal_subordinate_filtered.csv
-├── Participle Analysis/
 │   ├── andi_all.csv
 │   └── andi_filtered.csv
-└── Tail Linking/
     ├── subject_position_filtered.csv
     └── subject_position_narrative.csv 
 ```
