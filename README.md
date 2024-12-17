@@ -2,13 +2,30 @@
 Last Updated: December 2024
 
 ## Overview
-This repository contains the files necessary to reproduce analyses in the paper titled "Discourse structure and the reorganisation of the Icelandic aspectual system" by Jordan Chark. To appear in Ulrike Demske (ed.), Discourse structure and narration: A diachronic view from Germanic. Berlin: Language Science Press.
+This repository contains the files necessary to reproduce analyses in the paper titled "Discourse structure and the reorganisation of the Icelandic aspectual system" by Jordan Chark. To appear in Ulrike Demske, Barthe Bloom (eds.), Discourse structure and narration: A diachronic view from Germanic. Berlin: Language Science Press.
 
 ## Directory Structure
 All full processed data files for analysis are located in the `/data` folder. Unprocessed files are in the main folder. Scripts can be run in RStudio by selecting the option to set the working directory to the data folder.
 ```
 repo/
 ├── README.txt
+├── andi.R
+├── buinn_timecourse_IcePAHC.R
+├── collocation_script.R
+├── corr_buinn_prog.R
+├── corr_foregroundingtha_subordinating_thegar.R
+├── icepahc_pres_past_buinn_descr.R
+├── prog_descriptive.R
+├── prog_focal.R
+├── progpost.csv
+├── summarytha.txt
+├── summarythaprevb.txt
+├── summarythegar.txt
+├── tail_linking.R
+├── tempsub.R
+├── thegar_tha_temporal.R
+├── temp_er_treebankcsv.csv
+├── thegar_naer_simp_treebank.csv
 └── data/
     ├── buinn_all.csv
     ├── progpost.csv
@@ -27,6 +44,7 @@ repo/
     ├── subject_position_filtered.csv
     ├── subject_position_narrative.csv
     ├── model_results.md
+    ├── model_results2_corr.md
     ├── 161718.csv
     ├── icepahc_1900.csv
     ├── 1920_progcolfix.csv
