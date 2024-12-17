@@ -33,7 +33,7 @@ repo/
 ```
 ## Dataset Descriptions
 
-### 1. Búinn and Progressive
+### 1. Búinn and Progressive (Descriptive analysis)
 #### Core Data Files
 - **buinn_all.csv**: Processed búinn construction data
   - Contains relative frequencies, genre information, and temporal data
@@ -42,10 +42,6 @@ repo/
 - **progpost.csv**: Raw progressive construction data
   - Contains base annotations of progressive constructions
   - Key columns: textid, year, genre, tense, label
- 
-- **161718.csv**: búinn in Íslenskt textasafn (16th-18th century subcorpus) (for collocating adverbials)
-- **icepahc_1900.csv**: búinn in IcePAHC (for collocating adverbials)
-- **1920_progcolfix.csv**: PROG in IcePAHC (for collocating adverbials)
 
 #### Processed Analysis Files
 - **buinn_tense_filtered.csv**: Filtered búinn data by tense
@@ -72,10 +68,14 @@ repo/
 - **thegar_tha_predictions.csv**: Model predictions for diachronic development
 
 ### 5. Tail Linking Analysis
-Note: File names retain "subject_position" for compatibility with existing scripts and analyses
 - **subject_position_filtered.csv**: Post-New Testament data for tail linking analysis
   - Key variables: Year, Text, Genre, XP-V-subjtopic %
 - **subject_position_narrative.csv**: Narrative-specific subset for tail linking analysis
+
+### 6. Collocational analysis
+- **161718.csv**: búinn in Íslenskt textasafn (16th-18th century subcorpus) (for collocating adverbials)
+- **icepahc_1900.csv**: búinn in IcePAHC (for collocating adverbials)
+- **1920_progcolfix.csv**: PROG in IcePAHC (for collocating adverbials)
 
 ## Variable Coding and Classifications
 
@@ -123,6 +123,7 @@ All scripts include data processing steps and are provided for reproduction.
 - buinn_timecourse_IcePAHC.R -- descriptive time-course analysis of the búinn construction in IcePAHC
 - corr_buinn_prog.R -- correlation between búinn and PROG in IcePAHC
 - corr_foregroundingtha_subordinating_thegar.R - correlation between foregrounding þá and subordinating þegar in IcePAHC
+- collocation_script.R - frequency of associated adverbials 
 - icepahc_pres_past_buinn_descr.R - descriptive búinn/hafa alternation data from IcePAHC
 - prog_descriptive.R -- descriptive analysis of PROG in IcePAHC
 - prog_focal.R -- focalised progressives in IcePAHC
