@@ -31,7 +31,7 @@ repo/
     ├── icepahc_1900.csv
     ├── 1920_progcolfix.csv
 ```
-## Dataset Descriptions
+## Dataset Description
 
 ### 1. Búinn and Progressive (Descriptive analysis)
 #### Core Data Files
@@ -76,6 +76,10 @@ repo/
 - **161718.csv**: búinn in Íslenskt textasafn (16th-18th century subcorpus) (for collocating adverbials)
 - **icepahc_1900.csv**: búinn in IcePAHC (for collocating adverbials)
 - **1920_progcolfix.csv**: PROG in IcePAHC (for collocating adverbials)
+
+### 7. Statistical model results
+- **model_results.md**: Regression analyses
+- **model_results2_corr.md**: Correlation analyses
 
 ## Variable Coding and Classifications
 
