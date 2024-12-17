@@ -9,24 +9,24 @@ All full data files for analysis are located in the `/data` directory:
 ```
 repo/
 ├── README.txt
-├── data/
-│   ├── buinn_all.csv
-│   ├── progpost.csv
-│   └── merged_data.csv
-│   ├── buinn_tense_filtered.csv
-│   ├── buinn_tense_agg.csv
-│   ├── progpost_agg.csv
-│   ├── progpost_agg2.csv
-│   └── subset_merged_data.csv
-│   ├── temporal_subordinate_combined.csv
-│   ├── temporal_subordinate_narrative.csv
-│   └── temporal_subordinate_filtered.csv
-│   ├── andi_all.csv
-│   └── andi_filtered.csv
+└── data/
+    ├── buinn_all.csv
+    ├── progpost.csv
+    ├── merged_data.csv
+    ├── buinn_tense_filtered.csv
+    ├── buinn_tense_agg.csv
+    ├── progpost_agg.csv
+    ├── progpost_agg2.csv
+    ├── subset_merged_data.csv
+    ├── temporal_subordinate_combined.csv
+    ├── temporal_subordinate_narrative.csv
+    ├── temporal_subordinate_filtered.csv
+    ├── andi_all.csv
+    ├── andi_filtered.csv
     ├── subject_position_filtered.csv
-    └── subject_position_narrative.csv 
+    ├── subject_position_narrative.csv
+    └── model_results.md
 ```
-
 ## Dataset Descriptions
 
 ### 1. Búinn and Progressive
