@@ -47,6 +47,7 @@ repo/
 - **progpost_agg2.csv**: Aggregated progressive data by century
 - **merged_data.csv**: Combined analysis data
 - **subset_merged_data.csv**: Filtered merged data
+- **fornrit_buinn.csv**: Búinn in Fornrit subcorpus of Íslenskt textasafn (frequency of infinitival complement)
 
 ### 2. Temporal Subordinate Analysis
 - **temporal_subordinate_combined.csv**: Combined dataset of temporal subordinate clauses
