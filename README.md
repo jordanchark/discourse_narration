@@ -5,7 +5,7 @@ Last Updated: December 2024
 This repository contains the files necessary to reproduce analyses in the paper titled "Discourse structure and the reorganisation of the Icelandic aspectual system" by Jordan Chark. To appear in Ulrike Demske (ed.), Discourse structure and narration: A diachronic view from Germanic. Berlin: Language Science Press.
 
 ## Directory Structure
-All full data files for analysis are located in the `/data` directory:
+All full processed data files for analysis are located in the `/data` folder. Unprocessed files are in the main folder. Scripts can be run in RStudio by selecting the option to set the working directory to source file location.
 ```
 repo/
 ├── README.txt
