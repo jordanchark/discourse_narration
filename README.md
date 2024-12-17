@@ -26,7 +26,10 @@ repo/
     ├── andi_filtered.csv
     ├── subject_position_filtered.csv
     ├── subject_position_narrative.csv
-    └── model_results.md
+    ├── model_results.md
+    ├── 161718.csv
+    ├── icepahc_1900.csv
+    ├── 1920_progcolfix.csv
 ```
 ## Dataset Descriptions
 
@@ -39,6 +42,10 @@ repo/
 - **progpost.csv**: Raw progressive construction data
   - Contains base annotations of progressive constructions
   - Key columns: textid, year, genre, tense, label
+ 
+- **161718.csv**: búinn in Íslenskt textasafn (16th-18th century subcorpus) (for collocating adverbials)
+- **icepahc_1900.csv**: búinn in IcePAHC (for collocating adverbials)
+- **1920_progcolfix.csv**: PROG in IcePAHC (for collocating adverbials)
 
 #### Processed Analysis Files
 - **buinn_tense_filtered.csv**: Filtered búinn data by tense
