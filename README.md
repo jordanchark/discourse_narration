@@ -95,12 +95,12 @@ Note: File names retain "subject_position" for compatibility with existing scrip
 - Key packages: dplyr, ggplot2, viridis, ggrepel
 
 ## Source Files
-- summarythaprevb.txt
-- summarythegar.txt
-- pplandi.txt
-- complete_data.csv (tail linking analysis source data)
-- icepahc_allptcp.csv
-- infbuinnsum.txt
+- summarythaprevb.txt (foregrounding, pre-verbal þá in IcePAHC)
+- summarytha.txt (subordinating þá in IcePAHC)
+- summarythegar.txt (þegar in IcePAHC)
+- pplandi.txt (participle -andi in IcePAHC)
+- complete_data.csv (tail linking analysis source data, summary of IcePAHC query)
+- infbuinnsum.txt (búinn construction in IcePAHC)
 
 ## Usage Notes
 1. Relative frequencies are calculated per 100 tokens unless otherwise specified
@@ -110,15 +110,16 @@ Note: File names retain "subject_position" for compatibility with existing scrip
 5. Datasets with 'filtered' in their names have specific exclusion criteria
 
 ## Scripts
-All scripts include data processing steps and are provided for reproduction:
-- buinn_analysis.R
-- progressive_analysis.R
-- data_export.R
-- Temporal subordinate analysis script
-- BÚINN/PROG correlation analysis script
-- -andi participle analysis script
-- þegar/þá temporal conjunction analysis script
-- Tail linking analysis script
+All scripts include data processing steps and are provided for reproduction.
+- buinn_timecourse_IcePAHC.R -- descriptive time-course analysis of the búinn construction in IcePAHC
+- corr_buinn_prog.R -- correlation between búinn and PROG in IcePAHC
+- corr_foregroundingtha_subordinating_thegar.R - correlation between foregrounding þá and subordinating þegar in IcePAHC
+- icepahc_pres_past_buinn_descr.R - descriptive búinn/hafa alternation data from IcePAHC
+- prog_descriptive.R -- descriptive analysis of PROG in IcePAHC
+- prog_focal.R -- focalised progressives in IcePAHC
+- tail_linking.R -- tail-linking analysis
+- tempsub.R -- temporal subordinate clauses in IcePAHC
+- thegar_tha_temporal.R -- þegar and þá as temporal subordinators in IcePAHC
 
 ## Version History
 - v1.0.0 (2024-12-17): Initial release
