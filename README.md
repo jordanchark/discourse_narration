@@ -103,7 +103,7 @@ Note: File names retain "subject_position" for compatibility with existing scrip
 - Processing: R version 4.x
 - Key packages: dplyr, ggplot2, viridis, ggrepel
 
-## Source Files
+## Source Files in main folder (Require further processing)
 - summarythaprevb.txt (foregrounding, pre-verbal þá in IcePAHC)
 - summarytha.txt (subordinating þá in IcePAHC)
 - summarythegar.txt (þegar in IcePAHC)
