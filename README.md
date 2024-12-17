@@ -27,8 +27,8 @@ data/
 │   ├── andi_all.csv
 │   └── andi_filtered.csv
 └── Tail Linking/
-    ├── subject_position_filtered.csv  # File name retained for compatibility
-    └── subject_position_narrative.csv  # File name retained for compatibility
+    ├── subject_position_filtered.csv
+    └── subject_position_narrative.csv 
 ```
 
 ## Dataset Descriptions
@@ -122,7 +122,7 @@ All scripts include data processing steps and are provided for reproduction:
 - BÚINN/PROG correlation analysis script
 - -andi participle analysis script
 - þegar/þá temporal conjunction analysis script
-- Tail linking analysis script (formerly subject position)
+- Tail linking analysis script
 
 ## Version History
 - v1.0.0 (2024-12-17): Initial release
