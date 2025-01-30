@@ -70,6 +70,7 @@ repo/
 - **merged_data.csv**: Combined analysis data
 - **subset_merged_data.csv**: Filtered merged data
 - **fornrit_buinn.csv**: Búinn in Fornrit subcorpus of Íslenskt textasafn (frequency of infinitival complement)
+- **fornrit_veraad.csv**: Progressive construction (vera að) in Fornrit subcorpus of Íslenskt textasafn
 
 ### 2. Temporal Subordinate Analysis
 - **temporal_subordinate_combined.csv**: Combined dataset of temporal subordinate clauses
@@ -99,6 +100,9 @@ repo/
 ### 7. Statistical model results
 - **model_results.md**: Regression analyses
 - **model_results2_corr.md**: Correlation analyses
+
+### 8. Additional tables
+- **discoursevol_appendixtables.pdf**: Classification of Progressive Examples from Benediktsson (2002), Temporal subordinate clauses in IcePAHC
 
 ## Variable Coding and Classifications
 
