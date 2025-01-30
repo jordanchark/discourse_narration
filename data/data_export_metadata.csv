@@ -1,0 +1,9 @@
+"filename","description","date_created"
+"buinn_all.csv","Processed búinn data with relative frequencies",2024-12-05
+"buinn_tense_filtered.csv","Filtered búinn data by tense",2024-12-05
+"buinn_tense_agg.csv","Aggregated búinn data by tense and century",2024-12-05
+"progpost.csv","Raw progressive construction data",2024-12-05
+"progpost_agg.csv","Aggregated progressive data by text",2024-12-05
+"progpost_agg2.csv","Aggregated progressive data by century and label",2024-12-05
+"merged_data.csv","Merged progressive and búinn data with relative frequencies",2024-12-05
+"subset_merged_data.csv","Subset of merged data (filtered by year)",2024-12-05
