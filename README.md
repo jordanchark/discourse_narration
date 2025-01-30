@@ -1,5 +1,5 @@
 # Discourse structure and the reorganisation of the Icelandic aspectual system
-Last Updated: December 2024
+Last Updated: January 2025
 
 ## Overview
 This repository contains the files necessary to reproduce analyses in the paper titled "Discourse structure and the reorganisation of the Icelandic aspectual system" by Jordan Chark. To appear (in 2025) in Barthe Bloom, Ulrike Demske and Malika Reetz (eds.), Discourse structure and narration: A diachronic view from Germanic. Berlin: Language Science Press.
